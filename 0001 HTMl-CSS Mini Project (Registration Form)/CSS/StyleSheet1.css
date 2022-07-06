@@ -1,0 +1,143 @@
+﻿
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700,700i&display=swap");
+
+body {
+    margin: 3% 0.5% 0.5% 0.5%;
+    padding: 0%;
+    background-color: black;
+}
+
+.truth {
+    position: relative;
+    z-index: 100;
+    animation: opacity-animation 4s ease-in;
+    animation-fill-mode: forwards;
+    width: 100%;
+    margin: -625px 0px 0px 0px;
+    height: 674px;
+}
+
+@keyframes opacity-animation {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+.cont-div {
+    background: linear-gradient(180deg, #03a9f4, transparent);
+    height: 100px;
+    width: 100%;
+    margin: -2.5% 0% 0% 0%;
+    text-align: center;
+}
+
+.h1 {
+    text-shadow: 0px 6px 5px #0e293e;
+    text-transform: uppercase;
+    text-decoration-color: darkred;
+}
+
+.item-nav {
+    box-shadow: 1px 1px 1px 1px red;
+    padding: 2px;
+    display: inline;
+    background-color: #00bcd4;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.active {
+    background: antiquewhite;
+    margin: 0px 19px 0px -40px;
+}
+
+.nonactive {
+    margin: 0px 30px 0px -8px;
+    padding: 0px 0px 0px 46px;
+}
+
+.tutorial {
+    width: 31%;
+    float: right;
+    height: 497px;
+    padding: 9px 0px 0px 0px;
+    margin-right: 7px;
+}
+
+.video {
+    height: 250px;
+    width: 81%;
+    display: inline;
+    margin: -20px 33px;
+}
+
+.tutorial-text {
+   margin: 50px 0px -19px 24px;
+   display:inline;
+}
+
+.form {
+    padding: 5px 0px 0px 10px;
+    height: 500px;
+    width: 65%;
+    margin: 0px 0px 0px 7px;
+}
+
+.hr-out {
+    border: none;
+    height:1px;
+    color: #fff;
+    background-color: #fff;
+    width: 100%;
+}
+
+.hr-in {
+    border: none;
+    border-top: 2px double;
+    color: #fff;
+    background-color: blue;
+    width: 70%;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 3px 3px #2cb1f5;
+    border-radius: 10px;
+    background-color: skyblue;
+}
+
+.contact {
+    right: 10px;
+    position: fixed;
+    bottom: 10px;
+    background-color:greenyellow;
+}
+
+.gif {
+    right: 82px;
+    width: 43px;
+    position: fixed;
+    bottom: 0px;
+}
+
+.non-decoration {
+    text-decoration: none;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-area {
+    text-align:center;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 10px 2px red;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
